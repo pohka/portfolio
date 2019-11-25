@@ -1,10 +1,13 @@
 {
-  "name": "my-app",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "markdown-to-jsx": "^6.10.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-icons": "^3.8.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },
   "scripts": {
