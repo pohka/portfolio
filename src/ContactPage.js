@@ -3,6 +3,14 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 class ContactPage extends Component
 {
+  downloadClick()
+  {
+    var link = document.createElement('a');
+    link.href = "./geff_bourke_resume.pdf";
+    link.download = 'geff_bourke_resume.pdf';
+    link.dispatchEvent(new MouseEvent('click'));
+  }
+
   render()
   {
     return(
@@ -19,7 +27,7 @@ class ContactPage extends Component
             <a href="https://www.linkedin.com/in/geff-bourke-91b238115/" target="_blank"><FaLinkedinIn /></a>
           </div>
           <hr></hr>
-          <div className="button">Download Resume</div>
+          <div className="button" onClick={this.downloadClick}>Download Resume</div>
         </div>
       </div>
     );
