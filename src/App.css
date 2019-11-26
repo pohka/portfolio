@@ -48,7 +48,7 @@ nav
   line-height: 46px;
   margin: 0 auto;
   width: 100%;
-  max-width: 1000px;
+  max-width: 800px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -58,7 +58,7 @@ nav
 nav li
 {
   list-style: none;
-  width: 25%;
+  width: 100%;
   text-align: center;
 }
 
@@ -304,11 +304,15 @@ footer
 
 footer a
 {
+  display: block;
+  max-width: 300px;
+  margin: 0 auto;
   text-decoration: none;
   font-size: 18px;
   background: var(--color_btn_bg);
   padding: 20px 36px;
   color: var(--color_text_alt);
+  
 }
 
 footer a:hover
@@ -370,4 +374,94 @@ footer a:hover
 .social-con a:hover
 {
   background: var(--color_btn_bg_hover);
+}
+
+
+@media only screen and (max-width: 850px) {
+  section
+  {
+    padding: 0px 30px;
+  }
+
+  .about-left
+  {
+    overflow: visible;
+    height: 174px;
+  }
+
+  footer
+  {
+    padding-top: 100px;
+  }
+
+  .project-item-con
+  {
+    flex-direction: column;
+  }
+
+  .project-item-media
+  {
+    width: 100%;
+    max-height: 358px;
+  }
+
+  .project-item-media img
+  {
+    width: 100%;
+    min-height: 100%;
+  }
+  .project-item-info-con
+  {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  
+  .about-info-left
+  {
+    margin-right: -50px;
+    margin-left: 50px;
+  }
+}
+
+
+@media only screen and (max-width: 660px) {
+  section
+  {
+    padding: 0px 20px;
+  }
+
+  .about-left
+  {
+    display:none;
+  }
+
+  .about-right
+  {
+    padding: 0px 0px;
+    margin: 0 auto;
+  }
+
+  .about-info-con h2
+  {
+    text-align: center;
+    justify-content: center;
+  }
+
+
+  footer
+  {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .project-item-media
+  {
+    max-height: 270px;
+  }
+
+  .about-info-con
+  {
+    padding: 0px;
+  }
 }

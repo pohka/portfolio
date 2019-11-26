@@ -13,11 +13,11 @@ class About extends Component
             <h2>Geff Bourke</h2>
             <div>
               <div className="about-info">
-                <div>Location</div>
+                <div className="about-info-left">Location</div>
                 <div>Clare, Ireland</div>
               </div>
               <div className="about-info">
-                <div>Education</div>
+                <div className="about-info-left">Education</div>
                 <div>B.Sc in Computer Games Development</div>
               </div>
             </div>
@@ -73,7 +73,7 @@ class About extends Component
         <h2>Education</h2>
         <h4>B.Sc in Computer Games Development</h4>
         <p>
-          Studied from 2012-2016 in the <b>University of Limerick</b> and the main focus of the course was to work in teams and build a strong <b>computer science</b> background while using Java for most projects. The main topics covered are as follows:
+          Studied from 2012-2016 in the <b>University of Limerick</b>. The course focused on to working in teams and build a strong <b>computer science</b> background while using Java for most projects. The main topics covered are as follows:
         </p>
         <ul>
           <li>Object Orientated Programming </li>

@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://www.geffbourke.icu/",
   "dependencies": {
     "markdown-to-jsx": "^6.10.3",
     "react": "^16.12.0",
