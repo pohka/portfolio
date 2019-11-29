@@ -2,12 +2,13 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://www.geffbourke.icu/",
+  "homepage": "http://www.geffbourke.icu/",
   "dependencies": {
     "markdown-to-jsx": "^6.10.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-icons": "^3.8.0",
+    "react-reveal": "^1.2.2",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },

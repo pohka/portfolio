@@ -1,5 +1,6 @@
 import React, {Component} from "react"
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import Fade from 'react-reveal/Fade';
 
 class ContactPage extends Component
 {
@@ -23,8 +24,12 @@ class ContactPage extends Component
           </div>
           <hr></hr>
           <div className="social-con">
-            <a href="https://github.com/pohka" target="_blank"><FaGithub /></a>
-            <a href="https://www.linkedin.com/in/geff-bourke-91b238115/" target="_blank"><FaLinkedinIn /></a>
+            <Fade left>
+              <a href="https://github.com/pohka" target="_blank"><FaGithub /></a>
+            </Fade>
+            <Fade right>
+              <a href="https://www.linkedin.com/in/geff-bourke-91b238115/" target="_blank"><FaLinkedinIn /></a>
+            </Fade>
           </div>
           <hr></hr>
           <div className="button" onClick={this.downloadClick}>Download Resume</div>

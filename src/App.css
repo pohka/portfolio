@@ -40,6 +40,7 @@ nav
   width: 100%;
   background: var(--color_nav_bg);
   box-shadow: 0px 0px 6px var(--color_shadow);
+  z-index: 100;
 }
 
 .nav-con
@@ -53,6 +54,7 @@ nav
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content:center;
+  
 }
 
 nav li

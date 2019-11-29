@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Markdown from 'markdown-to-jsx';
+import Fade from 'react-reveal/Fade';
+
 
 class ProjectItem extends Component
 {
@@ -40,6 +42,7 @@ class ProjectItem extends Component
   render()
   {
     return(
+      <Fade up>
       <div className="project-item-con">
         {this.getMedia()}
         <div className="project-item-info-con">
@@ -53,6 +56,7 @@ class ProjectItem extends Component
           {this.getButtons()}
         </div>
       </div>
+      </Fade>
     );
   }
 }

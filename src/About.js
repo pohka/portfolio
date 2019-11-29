@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import Fade from 'react-reveal/Fade';
 
 class About extends Component
 {
@@ -25,6 +26,7 @@ class About extends Component
           </div>
         </section>
         <hr></hr>
+        <Fade up>
         <section>
           <h2>Skills and Tools</h2>
           <div className="about-list-con">
@@ -68,7 +70,9 @@ class About extends Component
             </div>
           </div>
         </section>
+        </Fade>
         <hr></hr>
+        <Fade up>
         <section>
         <h2>Education</h2>
         <h4>B.Sc in Computer Games Development</h4>
@@ -86,6 +90,7 @@ class About extends Component
           <li>Event Driven Programming</li>
         </ul>
         </section>
+        </Fade>
       </div>
     );
   }
